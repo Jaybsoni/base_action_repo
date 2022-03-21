@@ -25,5 +25,5 @@ runs:
       with:
         python-version: '3.9'          
     
-    - run: python main.py
+    - run: python $GITHUB_ACTION_PATH/main.py
       shell: bash
